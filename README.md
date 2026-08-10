@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><img src="assets/egointent-logo-primary.png" alt="EgoIntent" width="160"> EgoIntent: A Pre-Outcome Micro-Step Benchmark for Understanding What, Why, and Next</h1>
+<h1><a href="assets/logo.pdf"><img src="assets/egointent-logo-primary.png" alt="EgoIntent" width="160"></a> EgoIntent: A Pre-Outcome Micro-Step Benchmark for Understanding What, Why, and Next</h1>
 
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/py2279105943/EgoIntent)
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](paper/EgoIntent.pdf)
