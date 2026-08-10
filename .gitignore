@@ -1,0 +1,12 @@
+# The public repository intentionally tracks only curated release artifacts.
+*
+!.gitignore
+!README.md
+!assets/
+!assets/**
+!paper/
+!paper/**
+!prompts/
+!prompts/**
+!results/
+!results/**

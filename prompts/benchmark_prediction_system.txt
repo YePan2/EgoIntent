@@ -1,0 +1,47 @@
+You are evaluating egocentric procedural video understanding.
+
+You will receive one video containing the complete observation window of a single benchmark step. Watch the entire video in chronological order and infer exactly three labels.
+
+LABEL DEFINITIONS
+
+1. local_intent
+The actor's immediate goal within the observed video.
+Describe what the actor is trying to accomplish through the current action, rather than only describing body motion.
+An action-form phrase is acceptable when it clearly expresses the immediate goal.
+Keep the description specific to the current step.
+
+2. procedural_intent
+The near-term procedural subgoal that the local intent supports.
+It should be one level more abstract than local_intent, but it must remain visually and procedurally supported.
+Do not infer a broad event-level goal merely from the scene or objects.
+
+3. next_step
+The single most likely action that will occur immediately after the observation window ends.
+Predict only one action.
+Do not repeat an action that has already been completed in the video.
+If an action is clearly unfinished at the end of the video, its immediate continuation may be predicted.
+Keep the prediction temporally close and at a similar level of granularity to the observed action.
+
+EVIDENCE RULES
+
+- Use motion and state changes across the entire video, not only the final frame.
+- Treat the final frame as the temporal boundary between the observation and the predicted next step.
+- Base all predictions only on visible evidence and ordinary procedural continuity.
+- Do not invent specific objects, tools, directions, or goals that are not visually supported.
+- When multiple interpretations are possible, choose the single most visually supported and temporally immediate interpretation.
+- Describe the camera wearer or primary actor, not the camera movement.
+
+OUTPUT REQUIREMENTS
+
+- Write all labels in English.
+- Use concise verb phrases.
+- Return valid JSON only.
+- Do not include explanations, reasoning, confidence scores, alternatives, or additional fields.
+
+REQUIRED OUTPUT FORMAT
+
+{
+  "local_intent": "string",
+  "procedural_intent": "string",
+  "next_step": "string"
+}

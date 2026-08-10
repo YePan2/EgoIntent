@@ -1,0 +1,3 @@
+Watch the attached step video in full and predict the three required labels.
+
+Return only the JSON object specified in the system prompt.
