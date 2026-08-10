@@ -14,7 +14,9 @@ Official repository for **EgoIntent**, a benchmark for inferring fine-grained hu
 ## 🖼️ Teaser Figure
 
 <p align="center">
-  <img src="assets/teaser.png" alt="EgoIntent performance comparison" width="100%">
+  <a href="assets/teaser-figure.pdf">
+    <img src="assets/teaser.png" alt="EgoIntent performance comparison" width="100%">
+  </a>
 </p>
 
 ## 🚀 News
@@ -48,7 +50,9 @@ The model receives no activity name, scene label, narration, answer option, refe
 ### Method Figure
 
 <p align="center">
-  <img src="assets/method.png" alt="EgoIntent construction and task definition" width="100%">
+  <a href="assets/method-figure.pdf">
+    <img src="assets/method.png" alt="EgoIntent construction and task definition" width="100%">
+  </a>
 </p>
 
 ## 📦 Dataset
