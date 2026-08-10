@@ -80,25 +80,6 @@ snapshot_download(
 
 Please consult the [Hugging Face dataset card](https://huggingface.co/datasets/py2279105943/EgoIntent) for the latest file organization, access conditions, and usage terms. The source videos originate from Ego4D; users must also comply with the applicable Ego4D licenses and terms.
 
----
-
-## Quick Start
-
-Use the released prompts in [`prompts/`](prompts/) with one complete observation-window video. A prediction must contain exactly three English verb phrases:
-
-```json
-{
-  "local_intent": "place the sliced vegetables into the bowl",
-  "procedural_intent": "prepare the ingredients for mixing",
-  "next_step": "add the dressing to the bowl"
-}
-```
-
-The prompt package contains:
-
-- [`benchmark_prediction_system.txt`](prompts/benchmark_prediction_system.txt): task definitions, evidence rules, and output constraints.
-- [`benchmark_prediction_user.txt`](prompts/benchmark_prediction_user.txt): user message paired with the video.
-
 ## 📊 Main Results
 
 Reference-based scores measure semantic agreement with human annotations on the complete benchmark. **Overall** is the mean of Local, Procedural, and Next.
@@ -133,7 +114,6 @@ See [`results/leaderboard.md`](results/leaderboard.md) for the complete referenc
 EgoIntent/
 ├── assets/                  # README figures and project branding
 ├── paper/EgoIntent.pdf      # Anonymous paper manuscript
-├── prompts/                 # Official benchmark prediction prompts
 ├── results/leaderboard.md   # Full benchmark results
 └── README.md
 ```

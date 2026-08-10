@@ -7,7 +7,5 @@
 assets/score-comparison.png
 !paper/
 !paper/**
-!prompts/
-!prompts/**
 !results/
 !results/**
