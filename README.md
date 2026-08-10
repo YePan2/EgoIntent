@@ -50,6 +50,17 @@ Given a pre-outcome egocentric video clip, a model predicts three open-ended lab
 
 The model receives no activity name, scene label, narration, answer option, reference annotation, or future frame.
 
+### Reference-Free Diagnostics
+
+Four complementary metrics assess prediction quality without access to the reference answer:
+
+| Metric | Full Name | Definition |
+|---|---|---|
+| **GF** | **Visual Grounding Faithfulness** | Whether the prediction is supported by visible evidence. |
+| **HIC** | **Hierarchical Intent Consistency** | Whether Local Intent and Procedural Intent form a valid goal hierarchy. |
+| **TPC** | **Temporal Progression Consistency** | Whether the current and future predictions follow a coherent temporal order. |
+| **NPF** | **Next-Plan Feasibility** | Whether the proposed next action is immediately feasible from the observed state. |
+
 ### Method Figure
 
 <p align="center">
