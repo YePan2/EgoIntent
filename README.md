@@ -61,8 +61,6 @@ Four complementary metrics assess prediction quality without access to the refer
 | **TPC** | **Temporal Progression Consistency** | Whether the current and future predictions follow a coherent temporal order. |
 | **NPF** | **Next-Plan Feasibility** | Whether the proposed next action is immediately feasible from the observed state. |
 
-### Method Figure
-
 <p align="center">
   <a href="assets/method-figure.pdf">
     <img src="assets/method.png" alt="EgoIntent construction and task definition" width="100%">
