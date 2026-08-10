@@ -11,6 +11,8 @@
 
 Official repository for **EgoIntent**, a benchmark for inferring fine-grained human intent from egocentric procedural videos *before* the current outcome becomes visible.
 
+## 🖼️ Teaser Figure
+
 <p align="center">
   <img src="assets/teaser.png" alt="EgoIntent performance comparison" width="100%">
 </p>
@@ -18,7 +20,6 @@ Official repository for **EgoIntent**, a benchmark for inferring fine-grained hu
 ## 🚀 News
 
 - **[2026-08]** The EgoIntent dataset and project repository are publicly available.
-- **[2026-08]** We release the benchmark prompts and results for 15 multimodal large language models.
 
 ---
 
@@ -43,6 +44,8 @@ Given a pre-outcome egocentric video clip, a model predicts three open-ended lab
 | **Next-Plan** | Next? | The action most likely to occur immediately after the observation boundary. |
 
 The model receives no activity name, scene label, narration, answer option, reference annotation, or future frame.
+
+### Method Figure
 
 <p align="center">
   <img src="assets/method.png" alt="EgoIntent construction and task definition" width="100%">
