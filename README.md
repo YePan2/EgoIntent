@@ -4,9 +4,12 @@
 
 <h1>EgoIntent: A Pre-Outcome Micro-Step Benchmark for Understanding What, Why, and Next</h1>
 
-[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/py2279105943/EgoIntent)
-[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](paper/EgoIntent.pdf)
-[![Benchmark](https://img.shields.io/badge/Benchmark-3%2C014%20Steps-285ede)](#benchmark-overview)
+<p>
+  <a href="https://github.com/YePan2/EgoIntent"><img src="https://img.shields.io/badge/PROJECT-PAGE-0D8ACC?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=555555" alt="Project Page" height="40"></a>
+  <a href="paper/EgoIntent.pdf"><img src="https://img.shields.io/badge/PAPER-PDF-C81D25?style=for-the-badge&amp;logo=arxiv&amp;logoColor=white&amp;labelColor=555555" alt="Paper PDF" height="40"></a>
+  <br><br>
+  <a href="https://huggingface.co/datasets/py2279105943/EgoIntent"><img src="https://img.shields.io/badge/DATASET-HUGGINGFACE-F37032?style=for-the-badge&amp;logo=huggingface&amp;logoColor=white&amp;labelColor=555555" alt="Dataset on Hugging Face" height="40"></a>
+</p>
 
 </div>
 
