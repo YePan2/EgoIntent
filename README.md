@@ -12,9 +12,9 @@
 
 </div>
 
-Official repository for **EgoIntent**, a benchmark for inferring fine-grained human intent from egocentric procedural videos *before* the current outcome becomes visible.
+Official repository for the paper: **EgoIntent: A Pre-Outcome Micro-Step Benchmark for Understanding What, Why, and Next.**
 
-## 🖼️ Teaser Figure
+> Egocentric videos show what people see and do, but understanding behavior also requires inferring the intentions behind each action. We introduce **EgoIntent**, a pre-outcome micro-step benchmark with **3,014 manually annotated steps** from 32 videos across 15 daily-life scenarios. It evaluates three complementary dimensions: **Local Intent (What)**, **Procedural Intent (Why)**, and **Next-Plan (Next)**, using only visual evidence available before the current outcome appears. Experiments with 15 multimodal large language models show that strong scores often rely on static boundary cues: correct temporal order and longer history provide limited—and sometimes negative—benefits. EgoIntent therefore measures whether models genuinely understand evolving procedural intent rather than merely recognize completed actions.
 
 <p align="center">
   <a href="assets/teaser-figure.pdf">
